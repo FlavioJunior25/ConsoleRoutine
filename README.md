@@ -3,6 +3,7 @@
 <h4>Projeto Console</h4>
 
 Descrição: Esse projeto é o responsavel por essas atividades:
+</br>
 1. Acesse o método GetItemFila da api desenvolvida no Item anterior. Caso o método retorne um
 objeto, obter todas as moedas e períodos correspondentes.
 </br>
