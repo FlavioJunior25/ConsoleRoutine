@@ -21,3 +21,6 @@ Porém com uma coluna a mais (VL_COTACAO) contendo o valor de cotação correspo
 (obtido do arquivo DadosCotacao.csv) para cada moeda/data consultada.
 </br>
 1.4. Encerrar o processamento e aguardar o próximo ciclo de verificação (2 minutos)
+
+Versão utilizada : NETFramework,Version=v4.7.2
+
