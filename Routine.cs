@@ -48,18 +48,16 @@ namespace ConsoleRoutine
                 logs.RegisterLog("Retorno da chamada foi nulo !!");
                 return null;
             }
-            catch (Exception ex)
+            catch 
             {
                 Console.WriteLine("Erro ao solicita a requisição");
                 logs.RegisterLog("Erro ao solicita a requisição");
                 return null;
             }
         }
-        public async Task<string> ValidationCoinQuotationAsync()
+        public string ValidationCoinQuotationAsync()
         {
-            // Lista
             CoinModel coinModelReturn = CallApiAsync().Result;
-            List<CurrencyData> listCurrency = new List<CurrencyData>();
             try
             {
                 if (coinModelReturn != null)
