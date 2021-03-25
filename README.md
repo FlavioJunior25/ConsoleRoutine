@@ -5,6 +5,7 @@ Projeto Console
 Descrição: Esse projeto é o responsavel por essas atividades:
 1. Acesse o método GetItemFila da api desenvolvida no Item anterior. Caso o método retorne um
 objeto, obter todas as moedas e períodos correspondentes.
+</br>
 1.1. Para cada moeda/período retornada da api, acessar o arquivo DadosMoeda.csv (mesmo
 diretório de execução) e trazer todas as moedas/datas que estejam dentro do período
 (Inclusive) da moeda que está sendo tratada.
